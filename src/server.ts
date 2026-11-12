@@ -41,7 +41,7 @@ app.addHook('onRequest', async (request, reply) => {
 });
 
 const manifests = {
-  root: { id: 'com.bitchord.qobuz', name: 'Qobuz', version: '1.0.0' },
+  root: { id: 'com.bitchord.qobuz', name: 'ReZenOnance', version: '1.0.0' },
   qobuzdl: { id: 'com.bitchord.qobuz.qobuzdl', name: 'Legacy Source', version: '1.0.0' },
   lastbabe: { id: 'com.bitchord.qobuz.lastbabe', name: 'LastBabe Source', version: '1.0.0' },
   monochrome: { id: 'com.bitchord.qobuz.monochrome', name: 'Monochrome Lossless', version: '1.0.0' },
